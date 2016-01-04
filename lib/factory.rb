@@ -1,6 +1,6 @@
 module Factory
   def self.registered_product(product_id, product)
-    @registered_products[product_id] = product if product.is_a? Product
+    @registered_products[product_id] = product
   end
 
   def self.create_product(product_id)
